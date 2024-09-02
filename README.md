@@ -33,7 +33,7 @@ Realice los siguientes 4 programas en Python, Java o PHP  :
 13
 17
 
-
+```
 ### Criterios de evaluación
 - El uso de fuciones.
 - La simpleza de su código.
