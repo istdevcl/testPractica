@@ -32,23 +32,7 @@ Realice los siguientes 4 programas en Python, Java o PHP  :
 11
 13
 17
-```
-4. La [conjetura de Goldbach](https://es.wikipedia.org/wiki/Conjetura_de_Goldbach) sugiere que todo número par mayor que dos puede ser escrito como la suma de dos números primos. Hasta ahora no se conoce ningún número para el que esto no se cumpla.
 
-    Escriba un programa que reciba un número par como entrada y muestre todas las maneras en que puede ser escrito como una suma de dos primos:
-
-    Por ejemplo si ingresamos 338 se obtienen los siguientes valores : 
-```
-7 + 331
-31 + 307
-61 + 277
-67 + 271
-97 + 241
-109 + 229
-127 + 211
-139 + 199
-157 + 181
-```
 
 ### Criterios de evaluación
 - El uso de fuciones.
