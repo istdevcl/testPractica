@@ -1,0 +1,31 @@
+# 🧪 Pauta de Evaluación Técnica – Python: Lectura y Promedio de Archivo
+
+## ✅ Objetivo
+
+Evaluar la capacidad de un desarrollador para procesar archivos de texto, validar datos, manejar errores, y escribir código limpio y robusto. El archivo contiene líneas con datos de fecha y valor separado por coma. El objetivo es calcular el promedio de los valores válidos.
+
+---
+
+## 📝 Criterios de Evaluación (Total: 100 puntos)
+
+| Criterio | Descripción | Puntaje |
+|---------|-------------|--------|
+| **1. Manejo de archivos** | Uso correcto de apertura y cierre del archivo (idealmente `with open`). | **10 pts** |
+| **2. Lectura robusta de líneas** | Considera espacios, líneas vacías o mal formateadas. Usa `.strip()` o validaciones. | **15 pts** |
+| **3. Manejo de errores individuales por línea** | Maneja valores vacíos, incorrectos o no convertibles (`try/except` por línea). | **15 pts** |
+| **4. Validación de formato** | Verifica si la línea contiene una coma y dos partes válidas. | **10 pts** |
+| **5. Conversión segura a entero** | Usa `try/except` o validación antes de convertir a `int`. | **10 pts** |
+| **6. Cálculo del promedio solo con datos válidos** | No incluye líneas erróneas en el promedio. | **10 pts** |
+| **7. Muestra del resultado claro** | El resultado se imprime correctamente al final, con buen formato. | **5 pts** |
+| **8. Buen uso de excepciones globales** | Manejo de `FileNotFoundError` y errores generales (`Exception`). | **10 pts** |
+| **9. Estilo y legibilidad** | Código limpio, indentado, con nombres descriptivos. | **10 pts** |
+| **10. Extras (Bonus)** | Mejora opcional: log de errores, contador de líneas descartadas, validación de fecha. | **5 pts** |
+
+---
+
+## 🎯 Rango de Desempeño
+
+- **80–100 puntos** → 🟢 *Excelente*: Código robusto, limpio y bien estructurado.
+- **60–79 puntos** → 🟡 *Bueno*: Funciona correctamente pero con detalles que mejorar.
+- **40–59 puntos** → 🟠 *Regular*: Faltan validaciones importantes o tiene errores de lógica.
+- **0–39 puntos** → 🔴 *Insuficiente*: Código incompleto, frágil o con errores graves.
