@@ -6,6 +6,32 @@ Evaluar la capacidad de un desarrollador para procesar archivos de texto, valida
 
 ---
 
+## 🎯 Instrucciones para el evaluado
+
+Se te entrega un fragmento de código Python que lee un archivo `data.txt` con registros de fechas y valores, separados por coma. El objetivo principal es calcular el promedio de los valores.
+
+**Tu tarea no es reescribir el código ni codificar una solución.**
+
+En un tiempo estimado de **10 minutos**, debes:
+
+1. **Leer y analizar el código entregado.**
+2. **Identificar posibles errores, fallos o vulnerabilidades** que puedan afectar su funcionamiento.
+3. **Proponer y justificar mejoras**, enfocándote en aspectos como:
+   - Robustez ante entradas erróneas o mal formateadas.
+   - Claridad y estructura del código (legibilidad, modularidad).
+   - Buenas prácticas de desarrollo (manejo de errores, separación de responsabilidades, validación de datos).
+   - Posibles mejoras mediante el uso de bibliotecas estándar como `pandas`, si corresponde.
+
+Puedes expresar tus observaciones en formato de lista, párrafos breves o comentarios estructurados. La evaluación considera tu capacidad para **analizar, razonar y justificar mejoras técnicas**, no tu velocidad para programar.
+
+---
+
+⏱️ **Tiempo estimado:** 10 minutos.
+
+🛑 **No escribas código.**
+
+---
+
 ## 📝 Criterios de Evaluación (Total: 110 puntos)
 
 | Nº | Criterio | Descripción | Puntaje Máx. | Puntaje Obtenido |
